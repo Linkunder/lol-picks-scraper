@@ -73,7 +73,7 @@ def scrape_champions_picks(db):
                     # browser.find_element_by_xpath("//select[@name='patch']/option[text()='11.2']").click()
 
                     # Set game version to 13
-                    browser.find_element_by_xpath("//select[@name='patch']/option[text()='11.3']").click()
+                    browser.find_element_by_xpath("//select[@name='patch']/option[text()='11.2']").click()
                     print('new version select')
                     time.sleep(4)
 
